@@ -1,0 +1,19 @@
+{
+  "name": "swekaj/cron-expression-generator",
+  "description": "Generate valid cron expressions.",
+  "homepage": "https://github.com/swekaj/CronExpressionGenerator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+      { "name": "Jake Soward" }
+  ],
+  "require": {
+      "php": ">=5.3.0",
+      "fzaninotto/faker": "~1.4"
+  },
+  "autoload": {
+      "psr-4": {
+          "CronExpressionGenerator\\": "src"
+      }
+  }
+}
